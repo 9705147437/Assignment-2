@@ -13,6 +13,8 @@ int main()
       "Skopje",
       "Paris",
     };
+    
+   //initializing a 8*8 matrix
     int arr[8][8] = {
       {0,0,0,0,1,0,0,0},
       {0,0,0,1,0,0,0,0},
@@ -23,6 +25,8 @@ int main()
       {0,0,0,0,0,0,0,1},
       {0,0,0,0,0,0,1,0}
     };
+    
+    //BFS Algorithm
     int index = 1;
     int traverse[6] = {0};
     int visited[8] = {0};
